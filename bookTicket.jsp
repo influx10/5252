@@ -16,6 +16,9 @@
 color:red;
 }
 </style>
+<c:if test="${erroMessage != null }">
+	<p style="color:red">${erroMessage}</p>
+</c:if>
 <fmt:formatDate value="${passengerDetailsVO.doj}" type="date" pattern="dd/MM/yyyy"/>
 <script type = "text/javascript">
          <!--
