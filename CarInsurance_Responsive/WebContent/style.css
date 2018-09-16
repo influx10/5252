@@ -1,0 +1,52 @@
+body {
+    background-color:#FFF;
+}
+.m-top {
+    margin: 30px 0;
+}
+.dropList {
+    margin : 5px;
+    padding: 5px;
+    min-height: 300px;
+}
+.dropList li {
+    list-style: none;
+    padding: 5px;
+    border: solid 1px #ddd;
+    text-align: center;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.insContainer {
+    margin-top: 50px;
+}
+
+#firstRow {
+    margin-top: 20px;
+}
+.insuranceContainer {
+    background-color: #eee;
+    padding: 20px 40px;
+    min-height: 300px;
+}
+
+.benefitsContainer {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+    min-height: 300px; 
+}
+
+.benefitsContainer div {
+    height: 50px;
+}
+
+small {display: none; margin-top:5px}
+.has-error small {display: block}
+
+.bgwhite {background-color: #FFF;}
+.text-italic{font-style: italic}
+.error {border: solid 1px #a94442;}

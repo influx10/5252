@@ -1,0 +1,88 @@
+<div class="container insContainer">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="insuranceContainer">
+                <div class="row">
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="cb1"/>
+                        <label class="form-check-label" for="cb1">Insurance</label>
+                    </div>
+                </div>
+                <div class="row hide" id="firstRow">
+                    <form method="POST" id="myForm">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <select class="form-control" id="carType" name="carType">
+                                            <option value="">Please Select</option>
+                                        </select>
+                                        <small class="text-danger">This field is required</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <select class="form-control" id="fuelType" name="fuelType">
+                                            <option value="">Please Select</option>
+                                        </select>
+                                        <small class="text-danger">This field is required</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <select class="form-control" id="registrationState" name="registrationState">
+                                            <option value="">Please Select</option>
+                                        </select>
+                                        <small class="text-danger">This field is required</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <input class="form-control uname" id="userName" name="userName" placeholder="userName" maxlength="50"/>
+                                        <small class="text-danger">Enter 2 or more characters</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <input class="form-control pnumber" id="phoneNumber" name="phoneNumber" placeholder="phoneNumber" type="number"/>
+                                        <small class="text-danger">Enter 10 digit number</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <button class="btn btn-primary w100" type="submit">Get Quotes</button>
+                                </div>
+                            </div>
+                    </form>
+                </div>
+                <div class="row m-top hide" id="secondRow">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="bgwhite">
+                                <span class="text-italic">Insurance Plans</span>
+                                <ul id="banking" class="dropList" ondrop="drop(event)" ondragover="allowdrop(event)" data-list=''></ul>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="bgwhite">
+                                <span class="text-italic">Selected Insurance Plans</span>
+                                <ul id="bankingTarget" class="dropList" ondrop="drop(event)" ondragover="allowdrop(event)" data-list=''></ul>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <button class="btn btn-primary " id="buyInsurance">Buy Insurance</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="benefitsContainer">
+                <div><strong>Benefits</strong></div>
+                <div>Easy</div>
+                <div>Easy</div>
+                <div>Easy</div>
+            </div>
+        </div>
+    </div>
+</div>

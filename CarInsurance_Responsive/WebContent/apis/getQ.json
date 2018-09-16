@@ -1,0 +1,14 @@
+{
+  "sucess": "welcome",
+  "bank": [{
+    "name" : "hdfc",
+    "price" : "10000"
+    },
+    {"name" : "sbi",
+    "price" : "20000"
+    },
+    {
+    "name" : "iob",
+    "price" : "30000"
+    }]
+}
